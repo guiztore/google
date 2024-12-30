@@ -1,0 +1,159 @@
+body {
+	background-color: #202124;
+}
+
+a { 
+	color: #E8E8E8;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: white;
+}
+
+.conteneurheader {
+	margin: 20px 18px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.elements {
+	display: flex;
+	flex-direction: row;
+	height: 20px;
+	align-items: center;
+	gap: 20px;
+}
+
+.first {
+	display: flex;
+	flex-direction: row;
+	height: 20px;
+	align-items: center;
+	gap: 20px;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 235px;
+	align-items: center;
+}
+
+.ctas {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 12px;
+}
+
+.conteneurfooter {
+	margin-top: 224px;
+	margin-bottom: 0px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background-color: #171717;
+	padding: 8px 30px;
+}
+
+.france {
+	color: white;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+}
+
+hr {
+  display: block;
+  height: 0.1px;
+  border: 0;
+  border-top: 0.1px solid #313335;
+  margin: 1em 0;
+  padding: 0;
+  background-color: #313335;
+  width:150%;
+  margin-left: -30px;
+}
+
+input {
+	background-color: #303134;
+	color: #E8E8E8;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	border: solid 1px #303134;
+}
+
+input:hover {
+	background-color: #303134;
+	color: #E8E8E8;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: solid 1px #5F6367;
+	font-size: 14px;
+}
+
+.decade {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.advices {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.publicity {
+	display: flex;
+	flex-direction: row;
+	height: 20px;
+	align-items: center;
+	gap: 20px;
+}
+
+.parameters {
+	display: flex;
+	flex-direction: row;
+	height: 20px;
+	align-items: center;
+	gap: 20px;
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#searchnav {
+	background-color: #4D5157;
+	border-radius: 90px;
+	height: 24px;
+	width: 520px;
+	margin-bottom: 30px;
+	border: none;
+}
+
+#searchnav:hover {
+	background-color: #5F6367;
+	border-radius: 90px;
+	height: 24px;
+	width: 520px;
+	margin-bottom: 30px;
+	border: none;
+}
+
+#searchicon {
+	
+}
